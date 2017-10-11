@@ -4,6 +4,6 @@ author: mike1665
 version: 1.0
 commands:
   tempban:
-    description: Temp Ban Someone.
+    description: Temporarily ban someone.
   pardon:
-    description: Pardon someone.
+    description: Unban someone.
