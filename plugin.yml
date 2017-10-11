@@ -1,0 +1,9 @@
+name: TempBan
+main: me.mike.Main
+author: mike1665
+version: 1.0
+commands:
+  tempban:
+    description: Temp Ban Someone.
+  pardon:
+    description: Pardon someone.

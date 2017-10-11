@@ -1,0 +1,3 @@
+prefix: '&b[mBan]'
+tempban-message: '&cYou have been temporarily banned!'
+timeremaining-message: '&eTime Remaining:'
