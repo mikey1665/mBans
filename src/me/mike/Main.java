@@ -27,12 +27,12 @@ public class Main extends JavaPlugin{
 		getServer().getPluginManager().registerEvents(new EventListener(), this);
 		getCommand("tempban").setExecutor(new tempBanCommand());
 		getCommand("pardon").setExecutor(new pardonCommand());
-		Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "[mBan]" + "-" + ChatColor.GREEN + " Enabled!");
+		Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "[mBan]" + " " + ChatColor.GREEN + " Enabled!");
 	}
 	
 	@Override
 	public void onDisable(){
-		Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "[mBan]" + "-" + ChatColor.RED + " Disabled!");
+		Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "[mBan]" + " " + ChatColor.RED + " Disabled!");
 	}
 	
 	public void loadConfigManager(){
